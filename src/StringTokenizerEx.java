@@ -11,8 +11,7 @@ public class StringTokenizerEx {
         StringTokenizer st =new StringTokenizer(query, "&");
 
         int n = st.countTokens();
-        System.out.println("토큰 개수=" + n);
-
+        System.out.println("토큰 개수=" + n)
         while(st.hasMoreTokens()){
             String token = st.nextToken();
             System.out.println(token);
